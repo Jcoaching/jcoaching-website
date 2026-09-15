@@ -1,0 +1,15 @@
+# Local tooling and credentials
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.log
+# Internal hosting metadata is managed separately.
+.openai/
+dist/.openai/
+# Private source documents are not part of this handoff.
+project_sources/
+upload/
